@@ -1,0 +1,5 @@
+# The exact jars the mixins target, compiled against and pinned by SHA-1.
+# Fields: file name, SHA-1, download URL (CurseForge CDN).
+ImmersiveEngineering-1.20.1-10.2.0-183.jar b6e403e0e5be1802268be366ad1a7791f07fb793 https://mediafilez.forgecdn.net/files/6206/989/ImmersiveEngineering-1.20.1-10.2.0-183.jar
+dyairdrop-1.1.0-1.20.1-beta.jar c5d6bd36d83dd23afa7a0a9ed34d49f2099ab590 https://mediafilez.forgecdn.net/files/7689/163/dyairdrop-1.1.0-1.20.1-beta.jar
+MobDismemberment-1.20.1-8.0.1.jar fc77a3e72b89f5d82eb0371fb8e71ce1eaf0d354 https://mediafilez.forgecdn.net/files/8432/262/MobDismemberment-1.20.1-8.0.1.jar

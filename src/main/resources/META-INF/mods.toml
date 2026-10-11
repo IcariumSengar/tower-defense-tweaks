@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/IcariumSengar/tower-defense-tweaks/issues"
+
+[[mods]]
+modId = "tdtweaks"
+version = "1.0.0"
+displayName = "Tower Defense Tweaks"
+authors = "IcariumSengar"
+description = '''
+Small runtime changes to other mods for the Tower Defense modpack:
+- Immersive Engineering: Gun and Chemthrower Turrets fire without ammo; the Tesla Coil never targets players, SecurityCraft Sentries or armor stands, and makes no idle arcs.
+- Realistic Airdrop: the plane flies at a third of its speed (and lives long enough to reach its drop point), and a landed crate never deletes itself.
+- Mob Dismemberment: an error while making gibs no longer crashes the game.
+Each change applies only when its mod is installed.
+'''
+
+[[dependencies.tdtweaks]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tdtweaks]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.2)"
+ordering = "NONE"
+side = "BOTH"

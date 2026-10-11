@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "io.github.icariumsengar.tdtweaks.mixin",
+  "plugin": "io.github.icariumsengar.tdtweaks.TdTweaksMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "airdrop.AirdroplargeticksProcedureMixin",
+    "airdrop.PlaneticksProcedureMixin",
+    "ie.TeslaCoilBlockEntityMixin",
+    "ie.TurretChemBlockEntityMixin",
+    "ie.TurretGunBlockEntityMixin"
+  ],
+  "client": [
+    "dismemberment.EventHandlerClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
